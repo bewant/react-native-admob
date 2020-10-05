@@ -163,4 +163,7 @@ public class RNAdMobRewardedVideoAdModule extends ReactContextBaseJavaModule imp
             }
         });
     }
+    @Override
+    public void onRewardedVideoCompleted(){
+    }
 }
